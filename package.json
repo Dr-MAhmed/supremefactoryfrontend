@@ -1,0 +1,44 @@
+{
+  "name": "supreme-cotton-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-icons": "^1.0.0",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@tanstack/react-query": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "axios": "^1.5.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.9",
+    "framer-motion": "^12.38.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.7",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-hook-form": "^7.46.0",
+    "react-router-dom": "^6.15.0",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^3.23.2"
+  },
+  "devDependencies": {
+    "@hookform/resolvers": "^3.2.0",
+    "@types/node": "^25.6.0",
+    "@types/react": "^18.3.6",
+    "@types/react-dom": "^18.3.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.37",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.1",
+    "vite-plugin-pwa": "^0.19.8",
+    "workbox-window": "^7.4.1"
+  }
+}
